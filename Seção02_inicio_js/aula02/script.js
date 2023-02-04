@@ -17,3 +17,16 @@ function sair() {
   alert("até mais");
   area.innerHTML = "vc saiu";
 }
+function mediaAluno(nota1, not2) {
+  var media = (nota1 + not2) / 2;
+  if (media >= 10) {
+   console.log("aluno aprovado");
+  } else {
+    console.log("aluno reprovado");
+  }
+}
+
+function aluno(nome, curso){
+var msg = ' seja bem vindo ' + nome + ' ao curso d e' + curso;
+console.log(msg)
+}
