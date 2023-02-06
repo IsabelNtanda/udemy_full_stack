@@ -17,12 +17,18 @@ console.log(empresa)
 console.log(cargo)
 */
 //......................................Descontruindo um array
-let nome = ['Isabel', 'Lucas', 'Monica']
+let nomes = ['Isabel', 'Lucas', 'Monica']
 
-//console.log(nome[1])
-//console.log(nomr[0])
+//console.log(nomes[1])
+//console.log(nomes[0])
 
-let {0:Isabel, 2:Monica} = nome
-console.log(Isabel)
-console.log(Monica)
+//let {0:Isabel, 2:Monica} = nomes
+//console.log(Isabel)
+//console.log(Monica)
+
+//Pegando através da posição
+
+let [primeironome, segundonome] = nomes
+console.log(primeironome)
+console.log(segundonome)
 
