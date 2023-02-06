@@ -24,3 +24,4 @@ const numeroGerado = Math.floor(Math.random()*numeros.length)
 console.log('Numeros gerados foi:' + numeros[numeroGerado])
 }
 sorteador(1,4,5,15,90,55,34)
+
